@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 7</title>
+    
+</head> 
+
+<body>
+
+    
+<h1>Formulário de cadastro.</h1>
+
+<form action="#" method="get">
+
+<!-- id para nome -->
+
+<label for="id-name">🐱‍👤Nome: </label>
+<input type="text" name="name" id="id-name" placeholder="toninho sucrilhos" maxlength="60" required{A-Z}(30) {A-Z}(30)>
+
+<br>
+
+<!-- id para senha -->
+
+<label for="id-password">🔑Senha: </label>
+<input type="password" name="password" id="id-password" placeholder="******" required {A-Z}{0-9} minlength="8">
+
+<br>
+
+<!-- id para email -->
+
+<label for="id-email">📧E-mail: </label>
+<input type="email" name="email" id="id-email" placeholder="********@gmail.com" required {A-Z}@{A-Z}.com maxlength="156">
+
+<br>
+<br>
+
+<!-- id para data de nascimento -->
+
+<label for="id-birthday">📅Data de Nascimento: </label>
+<input type="date" name="birthday" id="id-birthday" required min="2007-01-01" max="2023-12-31">
+
+<br>
+
+<!-- id para hora -->
+
+<label for="id-hour">🕒Hora: </label>
+<input type="time" name="hour" id="id-hour">
+
+<br>
+
+<!-- id para número de residencia -->
+
+<label for="id-number">💯Número: </label>
+<input type="number" name="number" id="id-number" min="1" max="20" step="">
+
+
+<br>
+
+<!-- id para numero de telefone -->
+
+<label for="id-cellphone">📞Telefone pra contato: </label> 
+<input type="tel" name="cellphone" id="id-cellphone" required {0-9}(2)-{0-9}(9) placeholder="+DDD XXXXXXXXX">
+
+<br>
+
+<!-- id pra genero (lacração no mundo dos códigos)-->
+
+<label for="id-gender">🧬Gênero: </label>
+<input type="checkbox" name="gender" id="id-gender" >
+
+<br>
+
+<!-- id para nota (barrinha de scrollar) -->
+
+<label for="id-score">Nota: </label>
+<input type="range" name="score" id="id-score" min="0" max="10" step="2,5" value="0">
+
+<br>
+
+<!-- id para cor lacrola -->
+
+<label for="id-color">🌈Cor: </label>
+<input type="color" name="color" id="id-color">
+
+<br>
+
+<label for="id-turn">Turno:</label> 
+<select name="turn" id="id-turn" required>
+    <option value="afternoon">Manhã</option>
+    <option value="midnight">Tarde</option>
+    <option value="night">Noite</option>
+</select>
+
+<br>
+
+<!-- string pra box de texto -->
+
+<textarea name="bio" id="id-bio" cols="30" rows="3" placeholder="Digite aqui sua biografia"></textarea>
+
+<br>
+<!-- input de enviar formulário (por estar no get vai ir para url) -->
+<input type="submit" value="Enviar dados.">
+<input type="reset" value="Limpar">
+<br>  
+<br>
+
+<!-- id pra contrato EULA -->
+
+<input type="checkbox" name="contract" id="id-contract">
+<label for="id-contract">🧾Aceito os termos de serviços.</label> 
+
+<br>
+
+<!-- id para confirmar EULA -->
+ 
+<label for="id-confirm:eula">Tem certeza?</label>
+<input type="radio" name="confirm.eula" id="id-confirm:eula" value="yes">
+<input type="radio" name="confirm.eula" id="id-nonconfirm:eula" value="no">
+
+</form>
+
+</body>
+</html>

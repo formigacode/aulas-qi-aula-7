@@ -1,0 +1,18 @@
+h3  {background-color: rgb(172, 218, 7);}
+
+#h3-left {text-align: left; color: red;}
+
+#h3-center {text-align: right;color: yellow;}
+
+#h3-right {text-align: center; color: blue;}
+
+.h3-inline {display: inline-block;}
+
+#box-chines {
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    border: 2px; solid 
+}
